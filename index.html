@@ -1,11 +1,30 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>
-            Hello!
-        </title>
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        Hello World!
+        <!-- other pages -->
+        <div style="text-align:right; margin:10px;">
+            <a style="margin-right: 10px;" href="image.html">Image</a>
+            <a href="advanced.html">Advanced</a>
+        </div>
+        <!-- logo -->
+        <div style="text-align: center; margin-top: 100px; margin-bottom:20px ;">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Couldn't load logo.png" width=250px>
+        </div>
+        <!-- input -->
+        <form action="https://google.com/search">
+            <div id="search">
+                <img style="width:20px; margin: 10px;" src="search.svg" alt="Searchlogo">
+                <input id="textinput" type="text" name="q">
+                <img style="width:30px; margin: 5px;"src="chromelogo.svg" alt="Chromelogo">
+            </div>
+            <div>
+                <input class="button" value="Google Search" type="submit">
+                <input class="button" value="I'm Feeling Lucky" type="submit" name="btnI">
+            </div>
+        </form>
     </body>
 </html>
