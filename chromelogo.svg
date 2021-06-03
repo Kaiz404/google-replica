@@ -1,0 +1,8 @@
+<svg stroke-linejoin="round" stroke-linecap="round" fill="none" stroke="#9e9e9e" stroke-width="1.5" viewBox="0 0 24 24" height="28" width="28" class="icon icon-tabler icon-tabler-brand-chrome" xmlns="http://www.w3.org/2000/svg">
+  <path fill="none" d="M0 0h24v24H0z" stroke="none"></path>
+  <circle r="9" cy="12" cx="12"></circle>
+  <circle r="3" cy="12" cx="12"></circle>
+  <line y2="9" x2="20.4" y1="9" x1="12"></line>
+  <line transform="rotate(120 12 12)" y2="9" x2="20.4" y1="9" x1="12"></line>
+  <line transform="rotate(240 12 12)" y2="9" x2="20.4" y1="9" x1="12"></line>
+</svg>
